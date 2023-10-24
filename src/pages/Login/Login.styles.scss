@@ -1,0 +1,13 @@
+.login-container{
+  background: #FBFBFB;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+
+  &__right {
+    padding-left: 2rem;
+    background: #ffffff;
+  }
+}
